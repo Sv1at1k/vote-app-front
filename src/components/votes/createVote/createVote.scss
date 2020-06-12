@@ -1,0 +1,114 @@
+.create-vote-wrapper {
+    .form-title {
+        padding-left: 10px;
+    }
+
+    .vote-options {
+        display: block;
+        padding-left: 15px;
+
+        input {
+            display: block;
+            margin-top: 10px;
+            width: 386px;
+            height: 32px;
+
+        }
+    }
+
+    .item {
+        padding: 10px;
+        padding-left: 15px;
+
+        label {
+            display: block;
+            padding-bottom: 10px;
+        }
+
+        textarea {
+            width: 386px;
+            height: 100px;
+        }
+
+        input {
+            width: 386px;
+            height: 32px;
+
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+
+        input[type="checkbox"] {
+            display: inline-block;
+            width: 33px;
+        }
+
+        select {
+            width: 193px;
+            height: 32px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+
+        .error {
+            margin-left: 10px;
+        }
+    }
+
+    button[type="submit"] {
+        background: #2E7CD7;
+        border-radius: 5px;
+        color: #FFFFFF;
+        width: 250px;
+        height: 42px;
+        font-size: 20px;
+        text-shadow: 0 0 black;
+        border-color: #2E7CD7;
+        margin-left: 16px;
+        cursor: pointer;
+    }
+
+    .cancel {
+        border-color: #2E7CD7;
+        box-sizing: border-box;
+        border-radius: 5px;
+        color: #2E7CD7;
+        font-size: 20px;
+        margin-left: 16px;
+        width: 150px;
+        height: 42px;
+        background: #FFFFFF;
+    }
+
+    .vote-param {
+        display: flex;
+
+        img {
+            padding-left: 8px;
+            padding-top: 19px;
+            height: 22px;
+            width: 29px;
+            cursor: pointer;
+        }
+    }
+
+    .add {
+        color: #2E7CD7;
+        display: flex;
+        padding-top: 12px;
+        cursor: pointer;
+
+        span {
+            padding-left: 8px;
+        }
+
+        img {
+            height: 18px;
+            padding-top: 4px;
+        }
+    }
+}
